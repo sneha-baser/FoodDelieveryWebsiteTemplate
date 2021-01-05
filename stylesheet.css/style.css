@@ -1,0 +1,283 @@
+*{
+	margin: 0px 0px;
+	padding: 0px;
+	margin-top: 0px;
+}
+#logo img{
+	width: 100px;
+}
+#navbar{
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin: 0px 0px;
+	padding: 0px 0px;
+
+
+}
+#logo img{
+	margin: 10px;
+	padding: 10px;
+	/*border : 2px solid green;*/
+}
+#navbar ul{
+	display: flex;
+	list-style: none;
+	
+
+}
+#navbar ul  li{
+	list-style: none;
+	font-size: 20px;
+	/*padding: 10px;*/
+
+
+}
+
+.item a{
+	display: block;
+	padding: 8px 10px;
+	text-decoration: none;
+	color: white;
+}
+.item a:hover{
+	/*display: block;*/
+	/*padding: 8px 10px;*/
+	/*text-decoration: none;*/
+	color: black;
+	background-color: white;
+	border-radius: 6px;
+}
+#navbar::before{
+	content: " ";
+	background-color: black;
+	position: absolute;
+	height:110px;
+	width:100%;
+	z-index: -1;
+	opacity: 0.6;
+	top:0px;
+	left: 0px;
+
+
+}
+#homer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px 24px;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+
+	/*font-family: 'El Messiri', sans-serif;*/
+	
+
+
+		margin-top: 100px;
+}
+#homer::before{
+	content: " ";
+	background : url("../images/food-1932466_1920.jpg");
+	position: absolute;
+	/*height:100%;*/
+	width:100%;
+	z-index: -2;
+	opacity: 0.8;
+	height: 500px;
+	top: 0px;
+	left:0px;
+
+
+}
+.primary{
+	font-size: 40px;
+	color: white;
+	font-family: 'El Messiri', sans-serif;
+	font-style: bold;
+
+}
+.btn{
+	padding: 6px 20px;
+	color: white;
+	background-color: brown;
+	margin:17px;
+	/*width:5%;*/
+	border-radius: 10px;
+	border : 2px solid grey;
+	cursor: pointer;
+}
+#services{
+	margin-top: 80px;
+	height: 200px;
+
+}
+#box{
+	display: flex;
+	margin-top: 21px;
+	
+
+
+}
+#head1{
+	text-align: center;
+	font-size: 40px;
+	font-family: 'El Messiri', sans-serif;
+
+}
+#box1{
+	border:2px solid red;
+	padding: 23px 20px;
+	text-align: center;
+	margin-right: 10px;
+	background-color:grey;
+
+
+}
+#box1 img {
+
+		height:216px;
+		margin-bottom: 10px;
+
+}
+#box2{
+	border:2px solid red;
+	padding: 23px 20px;
+	text-align: center;
+	margin-left: 10px;
+	background-color:grey;
+}
+#box3{
+	border:2px solid red;
+	margin-left: 10px;
+	text-align: center;
+	padding: 23px 20px;
+	background-color:grey;
+}
+#box2 img {
+
+		height:216px;
+			margin-bottom: 10px;
+}
+#box3 img {
+
+		height:216px;
+			margin-bottom: 10px;
+		
+	
+
+}
+#clients{
+	margin-top: 200px;
+	
+
+}
+#clients::before{
+	content: " ";
+	background : url("../images/menu-3356826_1280.jpg");
+	position: absolute;
+	/*height:100%;*/
+	width:100%;
+	z-index: -1;
+	opacity: 0.7;
+	height: 40%;
+	
+
+
+}
+.clbox{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 228px;
+	/*margin-top: 21px;*/
+}
+.clb1 img{
+	height: 150px;
+	padding: 10px 10px;
+	margin: 10px;
+
+}
+.clb2 img{
+	height: 150px;
+	padding: 10px 10px;
+	margin: 10px;
+
+}
+.clb3 img{
+	height: 150px;
+	padding: 10px 10px;
+	margin: 10px;
+
+}
+.heading{
+
+		text-align: center;
+	font-size: 40px;
+	font-family: 'El Messiri', sans-serif;
+}
+#Contactd{
+	margin-top: 1px;
+}
+#Contactd::before{
+	content: " ";
+	background : url("../images/aisle-3105629_1280.jpg");
+	position: absolute;
+	/*height:100%;*/
+	width:100%;
+	z-index: -1;
+	opacity: 0.6;
+	height: 50%;
+	
+
+
+}
+#Contactd h3{
+
+		text-align: center;
+	font-size: 40px;
+	font-family: 'El Messiri', sans-serif;
+}
+#contactb{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#Contactd label{
+	font-size: 20px;
+	font-family: 'El Messiri', sans-serif;
+	text-align: center;
+	margin: 4px 148px;
+
+}
+#Contactd input{
+	padding : 6px 23px;
+	width:76%;
+	margin:10px 20px;
+}
+#Contactd textarea{
+	padding : 6px 23px;
+	width:76%;
+	margin:10px 20px;
+
+}
+.btn1{
+	
+	padding: 2px 20px;
+	color: white;
+	background-color: black;
+	margin:10px 148px ;
+	/*width:5%;*/
+	border-radius: 10px;
+	border : 2px solid white;
+	cursor: pointer;
+
+}
+#foot{
+	background-color: black;
+	color:white;
+	text-align: center;
+	display: block;
+	margin: auto;
+}
